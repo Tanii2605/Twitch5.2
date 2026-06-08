@@ -120,6 +120,7 @@ twitch_miner = TwitchChannelPointsMiner(
 twitch_miner.mine(
     [
         
+       Streamer("zuexie_takoizu", settings=StreamerSettings(make_predictions=False  , follow_raid=True , claim_drops=False  , watch_streak=True , bet=BetSettings(strategy=Strategy.SMART      , percentage=5 , stealth_mode=False,  percentage_gap=20 , max_points=234   , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_POINTS,      where=Condition.LTE, value=250 ) ) )),
        Streamer("sofialovingly", settings=StreamerSettings(make_predictions=False  , follow_raid=True , claim_drops=False  , watch_streak=True , bet=BetSettings(strategy=Strategy.SMART      , percentage=5 , stealth_mode=False,  percentage_gap=20 , max_points=234   , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_POINTS,      where=Condition.LTE, value=250 ) ) )),
        Streamer("oshikira", settings=StreamerSettings(make_predictions=False  , follow_raid=True , claim_drops=False  , watch_streak=True , bet=BetSettings(strategy=Strategy.SMART      , percentage=5 , stealth_mode=False,  percentage_gap=20 , max_points=234   , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_POINTS,      where=Condition.LTE, value=250 ) ) )),
        Streamer("lore", settings=StreamerSettings(make_predictions=False  , follow_raid=True , claim_drops=False  , watch_streak=True , bet=BetSettings(strategy=Strategy.SMART      , percentage=5 , stealth_mode=False,  percentage_gap=20 , max_points=234   , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_POINTS,      where=Condition.LTE, value=250 ) ) )),
